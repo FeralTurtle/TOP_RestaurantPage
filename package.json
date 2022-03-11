@@ -4,7 +4,8 @@
   "description": "Restaurant web page made purely with JavaScript and utilize webpack, part of The Odin Project JavaScript curriculum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

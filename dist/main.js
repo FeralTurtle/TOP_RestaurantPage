@@ -1,1 +1,1 @@
-console.log("hi");
+(()=>{"use strict";document.body.appendChild((()=>{document.querySelector("#content");const e=document.createElement("div");return e.textContent="hi",e})())})();
