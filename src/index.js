@@ -1,3 +1,3 @@
-import loadContent from './loadContent.js';
+import { loadContent } from './loadContent.js';
 
-document.body.appendChild(loadContent());
+loadContent();
