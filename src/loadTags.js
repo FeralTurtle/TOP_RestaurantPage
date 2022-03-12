@@ -15,11 +15,7 @@ const loadTags = () => {
 
     // Banner
     const banner = document.createElement('div');
-    const bannerImg = document.createElement('img');
     banner.classList.add('banner');
-    bannerImg.setAttribute('img', '../images/restaurant-main.jpg');
-    bannerImg.setAttribute('alt', 'restaurant-main');
-    banner.append(bannerImg);
 
     // Main
     const main = document.createElement('main');

@@ -36,6 +36,10 @@ a:link, a:visited {
     color: var(--white);
 }
 
+.banner {
+    content: url('../images/restaurant-main.jpg') / 'restaurant-main';
+}
+
 img {
     width: 100%;
     height: 100%;

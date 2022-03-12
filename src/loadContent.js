@@ -11,8 +11,6 @@ const loadContent = () => {
     const anchor4 = document.querySelector('nav > a:nth-child(4)');
     anchor4.textContent = 'Contact us';
 
-    // Banner
-
     // Main
     const h2 = document.querySelector('h2');
     h2.textContent = 'About the restaurant';
