@@ -1,4 +1,4 @@
-const loadContent = () => {
+const loadContentHome = () => {
     // Header
     const span = document.querySelector('span');
     span.textContent = 'Logo';
@@ -43,4 +43,4 @@ const loadContent = () => {
     };
 };
 
-export { loadContent };
+export { loadContentHome };

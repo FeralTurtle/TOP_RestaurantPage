@@ -1,17 +1,19 @@
-const loadTags = () => {
+const loadTagsHome = () => {
     const content = document.querySelector('#content');
 
-    // Header
-    const header = document.createElement('header');
-    const span = document.createElement('span');
-    const nav = document.createElement('nav');
-    for (let i = 0; i < 4; i++) {
-        const newAnchor = document.createElement('a');
-        newAnchor.setAttribute('href', '#');
-        nav.append(newAnchor);
-    };
-    header.append(span);
-    header.append(nav);
+    // // Header
+    // const header = document.createElement('header');
+    // const span = document.createElement('span');
+    // const nav = document.createElement('nav');
+    // const anchorIds = ['home', 'menu', 'hours', 'contact'];
+    // for (let i = 0; i < 4; i++) {
+    //     const newAnchor = document.createElement('a');
+    //     newAnchor.setAttribute('href', '#');
+    //     newAnchor.id = anchorIds[i];
+    //     nav.append(newAnchor);
+    // };
+    // header.append(span);
+    // header.append(nav);
 
     // Banner
     const banner = document.createElement('div');
@@ -45,10 +47,10 @@ const loadTags = () => {
         footer.append(footerDiv);
     };
 
-    content.append(header);
+    // content.append(header);
     content.append(banner);
     content.append(main);
     content.append(footer);
 };
 
-export { loadTags };
+export { loadTagsHome };
