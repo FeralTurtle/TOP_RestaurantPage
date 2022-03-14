@@ -4,18 +4,10 @@ import { menu } from './menu.js';
 import { hours } from './hours.js';
 import { contact } from './contact.js';
 import './styles.css';
-import bannerImg from '../images/restaurant-main.jpg';
 
 //Initial page load
 header();
 home();
-//Makes new image tag
-const image = new Image();
-//Set src property value to be bannerImg
-image.src = bannerImg;
-//Append new image tag to a DOM element
-const banner = document.querySelector('.banner');
-banner.append(image);
 
 //Tab switching via persistent nav anchors
 const content = document.querySelector('#content');
@@ -32,6 +24,7 @@ function removeContents() {
         content.lastChild.remove();
     };
 }
+
 anchorHome.addEventListener('click', () => {
     removeContents();
     home();;

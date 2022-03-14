@@ -1,9 +1,14 @@
+import bannerImg from '../images/restaurant-main.jpg';
+
 const home = () => {
     const content = document.querySelector('#content');
 
     // Banner
     const banner = document.createElement('div');
     banner.classList.add('banner');
+    const img = document.createElement('img');
+    img.src = bannerImg;
+    banner.append(img);
 
     // Main
     const main = document.createElement('main');
